@@ -1,0 +1,186 @@
+.intro{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    padding-top: 100px;
+    padding-bottom: 60px;
+    position: relative;
+}
+
+
+
+
+.side_left .img_intro {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.side_left .img_intro img {
+    width: 60%;
+
+    /* animation-name: image_intro_animation;
+    animation-duration: 0.8s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards; */
+}
+
+
+/* @keyframes image_intro_animation {
+    0%{
+        opacity: 0;
+        transform: translateY(-200px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }   
+} */
+
+.side_right{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    justify-self: start;
+    padding: 0;
+    max-width: 380px;
+
+    /* animation-name: sideright_animation;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards; */
+}
+
+/* @keyframes sideright_animation {
+    0%{
+        transform: translateX(250px);
+    }
+    100%{
+        transform: translateX(0px);
+    }   
+} */
+
+.side_right button{
+    justify-self: start;
+}
+
+
+.img_intro{
+    min-width: 360px;
+    width: 80%;
+}
+
+
+.side_right h1{
+    font-size: 2.2rem;
+    line-height: 35px;
+}
+
+.side_right h1{
+    font-size: 5rem;
+    line-height: 35px;
+}
+
+.side_right h2{
+    font-size: 4rem;
+}
+
+.side_right p{
+    font-size: 2rem;
+}
+
+.logos{
+    justify-content: end;
+}
+
+
+
+.burble1{
+    background-image: url('./img/intro/blurble1.png');
+    position: absolute;
+    top: 0px;
+    left: 30%;
+    width: 213px;
+    height: 89px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.burble2{
+    background-image: url('./img/intro/burble2.png');
+    position: absolute;
+    top: 0px;
+    right: 0;
+    width: 147px;
+    height: 148px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.burble3{
+    background-image: url('./img/intro/burble3.png');
+    position: absolute;
+    top: 90%;
+    left: 0%;
+    width: 334px;
+    height: 91px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+/* Project */
+
+.burble1_projects{
+    width: 0;
+}
+
+.projects h2{
+    font-size: 4rem;
+    padding-left: 30px;
+}
+
+.cards{
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(1,1fr);
+    justify-items: center;
+}
+
+.card{
+    font-size: 2.2rem;
+}
+
+.card button{
+    font-size: 2rem;
+}
+
+.card_ml{
+    /* position: absolute; */
+    transform: translateX(-90%);
+}
+
+.card_cloud{
+    position: absolute;
+    z-index: 3;
+    grid-column: 1/2;
+    transform: translateY(-5%);
+}
+
+.card_powerbi{
+    position: absolute;
+    transform: translateX(90%);
+}
+
+
+
+/* skills */
+
+.percentage_skills{
+    display: grid;
+    row-gap: 30px;
+    column-gap: 70px;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+}
+

@@ -1,0 +1,373 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    --azul_claro: #008BF2;
+    --azul-oscuro: #0F0164;
+    --amarillo: #FFB201;
+    --gris: #F6F6F6;
+}
+
+main{
+    width: 100%;
+}
+
+
+/* First Section */
+
+
+
+.side_right h4{
+    font-weight: 600;
+    font-size: 2.4rem;
+    line-height: 70px;
+}
+
+.side_right, .side_left{
+    display: grid;
+}
+
+.side_right{
+    padding: 60px 30px;
+}
+
+.side_right h1{
+    font-weight: 600;
+    font-size: 3.6rem;
+    line-height: 10px;
+    color: var(--azul_claro);
+}
+
+.side_right h2{
+    font-weight: 600;
+    font-size: 2.8rem;
+    line-height: 60px;
+    color: var(--azul-oscuro);
+}
+
+.side_right p{
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: var(--azul-oscuro);
+}
+
+.side_right button{
+    background-color: var(--amarillo);
+    font-size: 2.0rem;
+    width: 180px;
+    height: 45px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 9px 15px rgba(0, 0, 0, 0.08);
+    color: white;
+    margin-top: 40px;
+    font-family: 'Mochiy Pop One', sans-serif; 
+    justify-self: center;
+    cursor: pointer;
+}
+
+.side_right button:hover{
+    box-shadow: 5px 9px 15px rgba(144, 144, 130, 0.596);
+}
+
+.img_intro img{
+    width: 250px;
+    justify-self: center;
+}
+
+.side_left .img_intro{
+    justify-self: center;
+}
+
+.logos{
+    display: flex;
+    margin: 30px;
+}
+
+.logos figure img{
+    width: 40px;
+}
+
+
+/* spans */
+
+.burble1{
+    background-image: url('./img/intro/burble1_phone.png');
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100px;
+    height: 232px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.burble2{
+    background-image: url('./img/intro/burble2_phone.png');
+    position: absolute;
+    top: 0px;
+    right: 0;
+    width: 218px;
+    height: 150px;
+    background-repeat: no-repeat;
+    
+}
+
+.burble3{
+    background-image: url('./img/intro/burblue3_phone.png');
+    position: absolute;
+    top: 200px;
+    right: 0;
+    width: 96px;
+    height: 281px;
+    background-repeat: no-repeat;
+    
+}
+
+
+
+
+/* Second Section */
+
+.projects{
+    background-color: var(--gris);
+    width: 100%;
+    padding: 20px 0;
+    position: relative;
+}
+
+.projects h2, .skills{
+    font-size: 2.5rem;
+    text-align: center;
+    color: var(--azul-oscuro);
+    padding: 30px 10px 40px;
+}
+
+.projects h2 span{
+    color: var(--azul_claro);
+}
+
+
+.card{
+    min-width: 280px;
+    max-width: 300px;
+    width: 70%;
+    height: 400px;
+    margin: 0px auto 25px;
+    padding: 40px;
+    border-radius: 30px;
+    box-shadow: 5px 9px 15px rgba(0, 0, 0, 0.08);
+
+    font-size: 1.8rem;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.card button{
+    width: 180px;
+    margin: 0 auto;
+    height: 50px;
+    border-radius: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1.4rem;
+    border: none;
+    color: white;
+    box-shadow: 5px 9px 15px rgba(0, 0, 0, 0.08);
+    
+}
+
+.card figure img{
+    width: 210px;
+}
+
+.card_ml{
+    background: #008BF2;
+}
+
+.card_cloud{
+    background: #009BA0;
+}
+
+.card_powerbi{
+    background: #FFB201;
+}
+
+
+.card_ml button{
+    background: #A6C9E3;
+    ;
+}
+
+.card_cloud button{
+    background: #74D8DB;
+}
+
+.card_powerbi button{
+    background: #FBDA8F;
+}
+
+
+.card button:hover{
+    box-shadow: 0px 1px 12px rgb(241 236 236 / 73%);
+    cursor:grabbing;
+}
+
+
+
+.burble1_projects{
+    background-image: url('./img/img_projects/burble_project_phone.png');
+    position: absolute;
+    top: 0px;
+    right: 0;
+    width: 176px;
+    height: 122px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* skills */
+
+.skills{
+    display: grid;
+    justify-items: center;
+}
+
+.skills h2{
+    margin-bottom: 30px;
+}
+
+.skills p{
+    margin-bottom: 15px;
+}
+
+.skill_image img{
+    width: 210px;
+}
+
+
+#line-container {
+    width: 300px;
+    height: 40px;
+    margin: 50px auto;
+}
+
+.progress-text {
+    font-size: 1.25em;
+    color: black;
+    margin-bottom: 1em;
+    font-weight: 600;
+  }
+
+
+  /* Barra de progreso */
+
+  .skill{
+      width: 160px;
+      height: 160px;
+    
+      position: relative;
+      margin-bottom: 25px;
+  }
+
+  .outer{
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    padding: 20px;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+                -6px -6px 10px -1px rgba(255, 255,255, 0.7);
+  }
+
+  .inner{
+    height: 120px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
+                inset -4px -4px 6px -1px rgba(255, 255,255, 0.7),
+                -0.5px -0.5px 0px rgba(255, 255,255, 1),
+                0.5px 0.5px 0px rgba(255, 255,255, 15),
+                0px 12px 10px -10px rgba(255, 255,255, 0.05);
+  }
+
+  .number{
+      font-weight: 600;
+      font-size: 1.8rem;
+      color: #555;
+  }
+
+  circle{
+      
+      fill: none;
+      stroke: url(#GradientColor);
+      stroke-width: 20px;
+      stroke-dasharray: 472;
+      stroke-dashoffset: 472;
+
+      
+  }
+
+.python_circle{
+    animation: anim 2s linear forwards;
+  }
+
+@keyframes anim{
+      100%{
+          stroke-dashoffset: 165.2;
+      }
+  }
+
+.sckit_circle{
+    animation: anim2 2s linear forwards;
+  }
+
+@keyframes anim2{
+      100%{
+          stroke-dashoffset: 94.4;
+      }
+  }
+
+.tensor_circle{
+    animation: anim3 2s linear forwards;
+  }
+
+@keyframes anim3{
+      100%{
+          stroke-dashoffset: 141.6;
+      }
+  }
+
+  .aws_circle{
+    animation: anim4 2s linear forwards;
+  }
+
+@keyframes anim4{
+      100%{
+          stroke-dashoffset: 70.8;
+      }
+  }
+
+
+  svg{
+      position: absolute;
+      top: 0;
+      left: 0
+  }

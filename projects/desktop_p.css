@@ -1,0 +1,78 @@
+.arrow_back{
+    width: 65px;
+    height: 65px;
+}
+
+.title_img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 100%;
+
+    width: 80%;
+    max-width: 900px;
+    margin: 60px auto;
+
+    align-items: center;
+    justify-items: center;
+}
+
+.intro_project img{
+    width: 400px;   
+    
+}
+
+.intro_project{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin: 0;
+}
+
+.ML_projects h2{
+    font-size: 4rem;
+    grid-column: 2/3;
+}
+
+
+.cards_project{
+    grid-template-columns: repeat(2,1fr);
+    width: 85%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+
+.side_left_card{
+    padding: 15px 25px;
+}
+
+.card_project .side_left_card h5{
+    font-size: 1.8rem;
+}
+
+
+.tag{
+    width: 65px;
+    height: 20px;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.burble1{
+    left: 35%;
+}
+
+
+.burble2{
+    background-image: url('../img/intro/burble2.png');
+    position: absolute;
+    top: 0px;
+    right: 0; 
+    width: 121px;
+    height: 128px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cards_project button:hover{
+    cursor: pointer;
+}
