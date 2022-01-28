@@ -40,10 +40,6 @@ a{
     left: 5%;
 }
 
-.arrow_back a{
-    width: 30px;
-    height: 30px
-}
 
 .ML_projects{
     width: 100%;
@@ -173,8 +169,7 @@ a{
 .burble1{
     background-image: url('../img/intro/blurble1.png');
     position: absolute;
-    top: 0px;
-    left: 0; 
+    top: 0px; 
     width: 182px;
     height: 76px;
     background-repeat: no-repeat;
