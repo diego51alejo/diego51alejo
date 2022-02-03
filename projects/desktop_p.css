@@ -39,8 +39,17 @@
     width: 85%;
     margin: 0 auto;
     max-width: 1200px;
+    gap: 20px;
 }
 
+.card_project:hover{
+    cursor: pointer;
+}
+
+.card_project{
+    margin: 0;
+    width: 100%;
+}
 
 .side_left_card{
     padding: 15px 25px;
@@ -74,6 +83,4 @@
     background-size: cover;
 }
 
-.cards_project button:hover{
-    cursor: pointer;
-}
+

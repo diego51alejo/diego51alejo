@@ -76,7 +76,7 @@ a{
 
 .card_project{
     min-width: 280px;
-    max-width: 560px;
+    /* max-width: 560px; */
     width: 95%;
     height: 235px;
     margin: 0 auto 15px;

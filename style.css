@@ -351,7 +351,7 @@ main{
 
 @keyframes anim3{
       100%{
-          stroke-dashoffset: 141.6;
+          stroke-dashoffset: 188.8;
       }
   }
 
@@ -361,7 +361,8 @@ main{
 
 @keyframes anim4{
       100%{
-          stroke-dashoffset: 70.8;
+          stroke-dashoffset: 141.6;
+          
       }
   }
 
@@ -369,5 +370,6 @@ main{
   svg{
       position: absolute;
       top: 0;
-      left: 0
+      left: 0;
+      
   }
