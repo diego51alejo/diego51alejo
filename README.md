@@ -13,6 +13,6 @@
  
 <h2> About me...</h2>
 
-<p align="left">I'm a data scientist who loves the data and never stops learning. I know statistics and other math tools. I have experience with Tableau, Scikict Learn, Python (NumPy, pandas, matplotlib, and seaborn), and PostgreSQL.
+<p align="left">I'm a data scientist who loves the data and never stops learning. I have experience with Tableau, Scikict Learn, Python (NumPy, pandas, matplotlib, and seaborn), and PostgreSQL.
 
 I'm a person competitive, passionate and I can perfectly work in a team.</p>
