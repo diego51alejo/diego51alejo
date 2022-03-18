@@ -1,5 +1,5 @@
 <p align="center">
- <img src = "./assets/logo_diego.png" width = 100> 
+ <img src = "./img/logo_diego.png" width = 100> 
  <h1 align="center">Hi there!👋 <br>I'm Diego Muñoz</h1>
  
 </p>
