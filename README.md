@@ -1,14 +1,16 @@
 <p align="center">
- <img src = "./img/logo.png" width = 100> 
+ <img src = "./img/logo.png" width = 200> 
  <h1 align="center">Hi there!👋 <br>I'm Diego Muñoz</h1>
  
 </p>
 <br>
 <p align='center'>
 &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://www.linkedin.com/in/diego-alejandro-mu%C3%B1oz-camayo-b217911b7/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>&nbsp;&nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/diego-data"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>&nbsp;&nbsp;&nbsp;
   &nbsp;
   <a href="https://platzi.com/p/diego51alejo1/"><img src="https://img.shields.io/badge/Platzi-98CA3F.svg?&style=for-the-badge&logo=platzi&logoColor=white" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://www.diegoalejandromunoz.com/">
+  <img src="https://img.shields.io/badge/Website-%23000000.svg?style=for-the-badge&logoColor=white" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
 
  
 <h2> About me...</h2>
